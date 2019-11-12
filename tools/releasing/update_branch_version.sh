@@ -36,8 +36,8 @@ fi
 
 ###########################
 
-OLD_VERSION=${OLD_VERSION}
-NEW_VERSION=${NEW_VERSION}
+OLD_VERSION=8.0
+NEW_VERSION=9.0
 
 
 if [ -z "${OLD_VERSION}" ]; then
