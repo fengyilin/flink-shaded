@@ -44,7 +44,18 @@ under the License.
             <distribution>repo</distribution>
         </license>
     </licenses>
-
+<distributionManagement>
+            <repository>
+                <id>falcon-releases</id>
+                <name>falcon-releases</name>
+                <url>http://192.168.0.102:8081/repository/falcon-releases/</url>
+            </repository>
+            <snapshotRepository>
+                <id>falcon-snapshots</id>
+                <name>falcon-snapshots</name>
+                <url>http://192.168.0.102:8081/repository/falcon-snapshots/</url>
+            </snapshotRepository>
+        </distributionManagement>
     <scm>
         <url>https://github.com/apache/flink-shaded</url>
         <connection>git@github.com:apache/flink-shaded.git</connection>
