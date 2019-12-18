@@ -37,7 +37,7 @@ under the License.
 	<version>${hadoop.version}-9.0</version>
 
 	<properties>
-		<hadoop.version>2.4.1</hadoop.version>
+		<hadoop.version>3.0.0</hadoop.version>
 	</properties>
 
 	<!--
